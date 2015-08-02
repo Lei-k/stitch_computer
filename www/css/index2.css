@@ -1,0 +1,78 @@
+body, main{
+    margin:0;
+    padding:0;
+}
+
+body{
+    width:100%;
+    height:100%;
+    background:url("../img/background.jpg");
+}
+
+.container{
+    width:80%;
+    position:absolute;
+    top:35px;
+    left:10%;
+    right:10%;
+}
+
+h1, main{
+    width:100%;
+}
+
+main{
+    height:auto;
+}
+
+table{
+    height:auto;
+}
+
+table, table th, table tr, table td, table button{
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+table tr, table th, table td{
+    margin:5px;
+}
+
+table th{
+    background:url("../img/wood11.jpeg");
+    border:2px outset white;
+    opacity:0.7;
+    height:90px;
+}
+
+table td#blanck{
+    height:100px;
+    background:url("../img/what.png") no-repeat;
+    background-position:center center;
+    background-size:115px 105px;
+}
+
+table h1#display{
+    font-family:Arial, sans-serif;
+    font-size:260%;
+    text-align:right;
+    width:100%;
+    height:100%;
+    margin:0;
+    word-break:break-all;
+}
+
+table td{
+    width:24%;
+    height:auto;
+}
+
+table button{
+    background:url("../img/wood11.jpeg");
+    font-size:20px;
+    height:60px;
+    opacity:0.7;
+}
+
+
